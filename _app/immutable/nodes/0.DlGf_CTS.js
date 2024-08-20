@@ -1,1 +1,0 @@
-import{t as o,a as r}from"../chunks/disclose-version.CQ1DD6PQ.js";import{n}from"../chunks/runtime.CHk9PFAs.js";function m(t){n();var e=o("export const prerender = true;");r(t,e)}export{m as component};

@@ -5,13 +5,14 @@ const dev = process.env.NODE_ENV === 'development';
 export default {
 	kit: {
 		paths: {
-			base: dev ? '' : '/your-repo-name'
+			base: dev ? '' : '/sp-podcast-website'
 		},
 		adapter: adapter({
 			// default options are shown. You can customize them if needed.
 			pages: 'build',
 			assets: 'build',
-			fallback: null,
+			fallback: 'index.html',
+			strict: false,
 			precompress: false
 		})
 	}

@@ -11,7 +11,6 @@ export default {
 			// default options are shown. You can customize them if needed.
 			pages: 'build',
 			assets: 'build',
-			fallback: 'index.html',
 			strict: false,
 			precompress: false
 		})
